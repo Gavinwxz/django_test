@@ -1,10 +1,10 @@
 from fabric.api import env, run
 from fabric.operations import sudo
 
-GIT_REPO = "you git repository"
+GIT_REPO = "https://github.com/Gavinwxz/django_test"
 
-env.user = 'you host username'
-env.password = 'you host password'
+env.user = 'gavin'
+env.password = 'xiaozhu110'
 
 # 填写你自己的主机对应的域名
 env.hosts = ['bixiaoyao.shop']
