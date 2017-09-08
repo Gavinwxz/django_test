@@ -23,7 +23,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = '_jbq@$5y1eu34zi+@o5m5c)%!lajtn-xqx_05yl%(dh1lan+(3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = FALSE
+DEBUG = False
 
 ALLOWED_HOSTS = ['120.0.0.1','localhost','bixiaoyao.shop']
 
