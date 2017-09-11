@@ -25,7 +25,7 @@ SECRET_KEY = '_jbq@$5y1eu34zi+@o5m5c)%!lajtn-xqx_05yl%(dh1lan+(3'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1','localhost','bixiaoyao.shop']
+ALLOWED_HOSTS = ['127.0.0.1','localhost','bixiaoyao.shop','www.bixiaoyao.shop']
 
 
 # Application definition
@@ -118,7 +118,6 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
-
 STATIC_URL = '/static/'
 
 STATIC_ROOT = os.path.join(BASE_DIR, 'static')
